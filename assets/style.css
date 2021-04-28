@@ -1,0 +1,54 @@
+tr:hover {background-color: #f5f5f5;}
+
+/*!
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root
+
+img
+{
+padding:5px;
+	
+}
+
+
+body
+{
+	padding:0px;
+	margin:0px;
+	/* Background Gradient for Analagous Colors */
+    background-color: #FFE6D0;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #FFE6D0 -webkit-gradient(linear, left top, left bottom, from(#F9FFD0), to(#FFE6D0)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #FFE6D0 -moz-linear-gradient(top, #F9FFD0, #FFE6D0) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9FFD0, endColorstr=#FFE6D0) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9FFD0, endColorstr=#F9FFD0)" no-repeat;
+
+}
+
+.tab-content > .tab-pane 
+{
+	width:auto;
+	display:none;
+}
+.tab-content > .tab-pane.active
+{
+	display:block;
+	padding:10px;
+	background-color:f5f5f5;
+}
+
+.nav > .nav-tabs
+{
+	width:10px;
+}
+
+.nav > .nav-tabs a
+{
+	width:100%;
+}

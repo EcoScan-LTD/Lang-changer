@@ -1,0 +1,16 @@
+{
+	"name" : "y/lang-changer",
+	"description" : "lang-Changer",
+	"type" : "project",
+	"license" : "GPL",
+	"authors" : [{
+			"name" : "y",
+			"email" : "aneurinj@live.co.uk"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require":{},
+	"autoload":{
+		"psr-4": {"Inc\\": "./inc"}
+	}
+}
